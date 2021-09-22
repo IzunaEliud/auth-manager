@@ -1,0 +1,32 @@
+body{
+    @apply w-screen h-screen flex items-center justify-center bg-gray-50
+}
+.btn{
+    @apply px-8 py-2 bg-white hover:bg-green-200 text-black text-xl border-2 my-2 border-green-400 focus:bg-green-400;
+}
+.btn-nav{
+    @apply rounded-t-lg
+}
+.btn-submit{
+    @apply rounded-lg
+}
+.btnSelect{
+    @apply bg-green-400;
+}
+.input{
+    @apply px-64 py-2 border-2 text-center
+}
+.form{
+    @apply grid grid-flow-row;
+}
+.form-inactive{
+    @apply hidden;
+}
+.navform{
+    @apply mb-4;
+}
+
+
+.root{
+    @apply px-10 py-8 rounded-xl bg-white shadow-lg;
+}
